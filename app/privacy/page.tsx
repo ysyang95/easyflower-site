@@ -73,32 +73,18 @@ export default function PrivacyPage() {
                     ③ 배송 업무를 위해 배송업체(화환 배송사)에 필요한 정보(수취인명, 연락처, 주소)를 제공합니다.
                 </p>
 
-                <h2 className="policy-section-title">제5조 (개인정보처리의 위탁)</h2>
-                <p className="policy-text">
-                    ① 회사는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.
-                </p>
-                <div className="privacy-contact-box">
-                    <p><strong>위탁 현황</strong></p>
-                    <p>위탁받는 자: 각 지역 화환 배송업체</p>
-                    <p>위탁업무: 화환 배송</p>
-                    <p>보유기간: 배송 완료 후 파기</p>
-                </div>
-                <p className="policy-text">
-                    ② 회사는 위탁계약 체결 시 「개인정보 보호법」 제26조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적·관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리·감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.
-                </p>
-
-                <h2 className="policy-section-title">제6조 (개인정보의 파기절차 및 방법)</h2>
+                <h2 className="policy-section-title">제5조 (개인정보의 파기절차 및 방법)</h2>
                 <p className="policy-text">
                     ① 회사는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.
                 </p>
                 <p className="policy-text">
-                    ② 파기절차: 불필요한 개인정보는 개인정보관리책임자의 승인을 받아 파기합니다.
+                    ② 파기절차: 불필요한 개인정보는 개인정보 무단 유출 방지를 위해 지체없이 파기합니다.
                 </p>
                 <p className="policy-text">
                     ③ 파기방법: 전자적 파일 형태의 정보는 복구 및 재생되지 않도록 기록을 파기하며, 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각합니다.
                 </p>
 
-                <h2 className="policy-section-title">제7조 (정보주체와 법정대리인의 권리·의무 및 행사방법)</h2>
+                <h2 className="policy-section-title">제6조 (정보주체와 법정대리인의 권리·의무 및 행사방법)</h2>
                 <p className="policy-text">
                     ① 정보주체는 회사에 대해 언제든지 개인정보 열람·정정·삭제·처리정지 요구 등의 권리를 행사할 수 있습니다.
                 </p>
@@ -112,22 +98,21 @@ export default function PrivacyPage() {
                     ④ 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 「개인정보 보호법」 시행규칙 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다.
                 </p>
 
-                <h2 className="policy-section-title">제8조 (개인정보의 안전성 확보조치)</h2>
+                <h2 className="policy-section-title">제7조 (개인정보의 안전성 확보조치)</h2>
                 <p className="policy-text">
                     회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.
                 </p>
                 <ul className="policy-list">
                     <li><strong>관리적 조치:</strong> 내부관리계획 수립·시행, 개인정보 취급 직원의 최소화 및 교육</li>
-                    <li><strong>기술적 조치:</strong> 개인정보처리시스템 등의 접근권한 관리, 접근통제시스템 설치, 보안프로그램 설치</li>
-                    <li><strong>물리적 조치:</strong> 전산실, 자료보관실 등의 접근통제</li>
+                    <li><strong>기술적 조치:</strong> 개인정보처리시스템 등의 접근권한 관리 (비밀번호 설정 등), 보안프로그램 설치</li>
                 </ul>
 
-                <h2 className="policy-section-title">제9조 (개인정보 자동 수집 장치의 설치·운영 및 거부)</h2>
+                <h2 className="policy-section-title">제8조 (개인정보 자동 수집 장치의 설치·운영 및 거부)</h2>
                 <p className="policy-text">
                     회사는 이용자에게 개별적인 맞춤서비스를 제공하기 위해 이용정보를 저장하고 수시로 불러오는 '쿠키(cookie)'를 사용합니다. 이용자는 웹브라우저 설정을 통해 쿠키 저장을 거부할 수 있으나, 이 경우 맞춤 서비스 이용에 어려움이 있을 수 있습니다.
                 </p>
 
-                <h2 className="policy-section-title">제10조 (개인정보 보호책임자)</h2>
+                <h2 className="policy-section-title">제9조 (개인정보 보호책임자)</h2>
                 <p className="policy-text">
                     회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
                 </p>
@@ -142,7 +127,7 @@ export default function PrivacyPage() {
                     정보주체께서는 회사의 서비스를 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자에게 문의하실 수 있습니다. 회사는 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.
                 </p>
 
-                <h2 className="policy-section-title">제11조 (권익침해 구제방법)</h2>
+                <h2 className="policy-section-title">제10조 (권익침해 구제방법)</h2>
                 <p className="policy-text">
                     정보주체는 개인정보침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 한국인터넷진흥원 개인정보침해신고센터 등에 분쟁해결이나 상담 등을 신청할 수 있습니다.
                 </p>
@@ -153,7 +138,7 @@ export default function PrivacyPage() {
                     <li>경찰청: (국번없이) 182 (ecrm.cyber.go.kr)</li>
                 </ul>
 
-                <h2 className="policy-section-title">제12조 (개인정보 처리방침 변경)</h2>
+                <h2 className="policy-section-title">제11조 (개인정보 처리방침 변경)</h2>
                 <p className="policy-text">
                     ① 이 개인정보처리방침은 2025년 2월 5일부터 적용됩니다.
                 </p>
