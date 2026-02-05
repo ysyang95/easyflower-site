@@ -59,13 +59,16 @@ export default function PrivacyPage() {
                 <p className="policy-text">
                     ① 회사는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.
                 </p>
-                <div className="privacy-contact-box">
-                    <p><strong>1. 화환 제작 및 배송: 럭시플로라 유한책임회사 (및 해당 업체의 제휴 화원사)</strong></p>
-                    <p>위탁 업무: 화환 제작, 배송, 배송 완료 사진 전송</p>
-                    <br />
-                    <p><strong>2. 결제 처리: 한국신용카드결제(KOCES)</strong></p>
-                    <p>위탁 업무: 신용카드 단말기 유지보수, 결제 승인 및 매입 처리</p>
-                </div>
+                <ul className="policy-list">
+                    <li>
+                        <strong>1. 화환 제작 및 배송:</strong> 럭시플로라 유한책임회사 (및 해당 업체의 제휴 화원사)
+                        <br />- 위탁 업무: 화환 제작, 배송, 배송 완료 사진 전송
+                    </li>
+                    <li>
+                        <strong>2. 결제 처리:</strong> 한국신용카드결제(KOCES)
+                        <br />- 위탁 업무: 신용카드 단말기 유지보수, 결제 승인 및 매입 처리
+                    </li>
+                </ul>
                 <p className="policy-text">
                     ② 회사는 위탁계약 체결 시 관련 법령에 따라 수탁자가 개인정보를 안전하게 처리하는지 관리·감독하고 있습니다.
                 </p>
