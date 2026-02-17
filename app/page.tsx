@@ -16,8 +16,8 @@ export default function Home() {
             <Link href="/policy" className="payback-banner">
                 <div className="payback-icon">💰</div>
                 <div className="payback-content">
-                    <div className="payback-title">주문 1건당 1만원 페이백!</div>
-                    <div className="payback-desc">특별한 고객님을 위한 이지플라워만의 혜택입니다</div>
+                    <div className="payback-title">주문 1건당 1만원 리워드 적립!</div>
+                    <div className="payback-desc">기업 회원 대상, 리워드를 모바일 상품권으로 증정</div>
                 </div>
             </Link>
 

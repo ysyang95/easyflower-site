@@ -6,23 +6,23 @@ export default function PolicyPage() {
             {/* 헤더 */}
             <div className="policy-header">
                 <Link href="/" className="back-btn">← 뒤로</Link>
-                <h1 className="policy-title">페이백 정책</h1>
+                <h1 className="policy-title">리워드 정책</h1>
             </div>
 
             {/* 메인 배너 */}
             <div className="policy-banner">
                 <div className="policy-banner-icon">💰</div>
                 <div className="policy-banner-title">주문 1건당 1만원 적립!</div>
-                <div className="policy-banner-sub">분기마다 상품권으로 돌려드려요</div>
+                <div className="policy-banner-sub">분기마다 모바일 상품권으로 돌려드려요</div>
             </div>
 
             {/* 정책 설명 */}
             <div className="policy-content">
-                <h2 className="policy-section-title">📋 페이백이란?</h2>
+                <h2 className="policy-section-title">📋 리워드란?</h2>
                 <p className="policy-text">
-                    이지플라워만의 특별한 고객 혜택입니다.<br />
+                    이지플라워만의 회원 혜택입니다.<br />
                     주문하실 때마다 <strong>1건당 1만원</strong>이 적립되고,<br />
-                    <strong>분기(3개월)</strong>가 끝나면 적립금을 <strong>상품권</strong>으로 돌려드려요!
+                    <strong>분기(3개월)</strong>가 끝나면 일주일 이내에 리워드 포인트를 <strong>상품권</strong>으로 돌려드려요!
                 </p>
 
                 <h2 className="policy-section-title">🎁 이용 방법</h2>
