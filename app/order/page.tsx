@@ -48,6 +48,8 @@ export default function OrderPage() {
                         <div className="info-content">
                             <strong>리본 문구</strong>
                             <p>요청이 없으면 기본 문구로 제작됩니다</p>
+                            <p>- 결혼: 祝 結婚</p>
+                            <p>- 부고: 삼가 故人의 冥福을 빕니다</p>
                         </div>
                     </div>
                 </div>
