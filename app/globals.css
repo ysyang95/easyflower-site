@@ -463,3 +463,233 @@ body {
     background: white;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* 주문 안내 버튼 */
+.action-btn.order {
+    background: #A8E6CF;
+    color: #1a1a1a;
+}
+
+/* 카카오 전체 너비 */
+.action-btn.full-width {
+    width: 100%;
+}
+
+/* ==================== */
+/* 주문 안내 페이지 스타일 */
+/* ==================== */
+
+.order-container {
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.order-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.order-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+/* 섹션 */
+.order-section {
+    background: white;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.order-section-icon {
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+
+.order-section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.order-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.order-tip {
+    background: #FFF8E1;
+    border-left: 4px solid #FFB300;
+    padding: 12px 16px;
+    border-radius: 0 12px 12px 0;
+    font-size: 0.9rem;
+    color: #5D4037;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+/* 주문 정보 리스트 */
+.order-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px;
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.info-number {
+    width: 28px;
+    height: 28px;
+    background: #E7692F;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+.info-content strong {
+    display: block;
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.info-content p {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+}
+
+/* 결제 카드 */
+.payment-card {
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border: 1px solid #eee;
+}
+
+.payment-card:last-child {
+    margin-bottom: 0;
+}
+
+.payment-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.payment-card-header h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.payment-icon {
+    font-size: 1.3rem;
+}
+
+.payment-card-header.cash {
+    background: linear-gradient(135deg, #43A047, #66BB6A);
+}
+
+.payment-card-header.card {
+    background: linear-gradient(135deg, #1565C0, #42A5F5);
+}
+
+.payment-card-header.credit {
+    background: linear-gradient(135deg, #6A1B9A, #AB47BC);
+}
+
+.payment-card-body {
+    padding: 16px 18px;
+    background: white;
+}
+
+/* 계좌 정보 */
+.account-info {
+    text-align: center;
+}
+
+.bank-name {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+.account-number {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.account-holder {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* 결제 리스트 */
+.payment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment-list li {
+    position: relative;
+    padding: 8px 0 8px 16px;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.payment-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #E7692F;
+    font-weight: 700;
+}
+
+.payment-list li strong {
+    color: #333;
+}
+
+/* 기타 안내 */
+.extra-info {
+    margin: 0;
+}
+
+/* 하단 고정 버튼 */
+.order-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 20px;
+    background: white;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+}

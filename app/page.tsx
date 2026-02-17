@@ -21,16 +21,19 @@ export default function Home() {
                 </div>
             </Link>
 
-            {/* 버튼 영역 - 2개 나란히 */}
+            {/* 버튼 영역 */}
             <div className="button-section">
                 <div className="button-row">
-                    <a href="http://pf.kakao.com/_lxleXn" className="action-btn kakao" target="_blank" rel="noopener">
-                        💬 카카오톡 채널
-                    </a>
+                    <Link href="/order" className="action-btn order">
+                        📝 주문 안내
+                    </Link>
                     <Link href="/flowers" className="action-btn flowers">
                         🌸 화환 종류
                     </Link>
                 </div>
+                <a href="http://pf.kakao.com/_lxleXn" className="action-btn kakao full-width" target="_blank" rel="noopener">
+                    💬 카카오톡 채널
+                </a>
             </div>
 
             {/* 푸터 */}
