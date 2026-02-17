@@ -65,11 +65,12 @@ export default function OrderPage() {
                         <h3>현금 (계좌이체)</h3>
                     </div>
                     <div className="payment-card-body">
-                        <div className="account-info">
-                            <p className="bank-name">기업은행</p>
-                            <p className="account-number">540-055355-04-012</p>
-                            <p className="account-holder">예금주: (주)이지플라워</p>
-                        </div>
+                        <p className="payment-desc">계좌이체 필요 시 아래 계좌번호로 이체 부탁드립니다.</p>
+                        <ul className="payment-list">
+                            <li><strong>은행</strong>: 기업은행</li>
+                            <li><strong>계좌번호</strong>: 540-055355-04-012</li>
+                            <li><strong>예금주</strong>: (주)이지플라워</li>
+                        </ul>
                     </div>
                 </div>
 

@@ -466,7 +466,7 @@ body {
 
 /* 주문 안내 버튼 */
 .action-btn.order {
-    background: #A8E6CF;
+    background: #9CD9FC;
     color: #1a1a1a;
 }
 
@@ -625,6 +625,13 @@ body {
 .payment-card-body {
     padding: 16px 18px;
     background: white;
+}
+
+.payment-desc {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 12px;
 }
 
 /* 계좌 정보 */
